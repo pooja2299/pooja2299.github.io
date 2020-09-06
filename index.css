@@ -1,0 +1,66 @@
+body{
+    background-color:  rgba(145, 210, 240, 0.959) ;
+}
+.imgcontainer{
+    position: relative;
+    text-align: center ;
+    width: 100%;
+    margin-right: 0px;
+}
+.serif {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    
+    text-align:left;
+    
+    padding-left: 0px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    color:rgba(243, 242, 227, 0.938);
+    text-shadow: 1px 1px 2px black, 0 0 5px rgb(34, 58, 87), 0 0 5px rgb(24, 214, 228);
+  }
+
+.centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bottomleft{
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+}
+#profile-pic{
+    border-radius: 50%;
+    height: 198px;
+    width: 212px;
+}
+#row1{
+    
+    background-color: rgba(211, 234, 240, 0.5) ;
+
+    
+}
+#row1:hover{
+    color: rgba(243, 242, 227, 0.938);
+    background-color: rgba(53, 54, 70, 0.938) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 1, 8, 0.2), 0 6px 20px 0 rgba(184, 245, 245, 0.19);
+}
+
+#topic{
+    padding-left: 100px;
+    
+}
+
+footer{
+    background-color: rgb(41, 37, 37);
+    padding: 20px;
+    text-align:center;
+    color: white;
+}
+
+.material-icons{
+    color: white;
+    
+}
